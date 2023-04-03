@@ -1,0 +1,96 @@
+name: supplierportal
+description: Created By NanoSoft
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  intl: ^0.18.0
+  animate_do: ^3.0.2
+  dropdown_button2: ^2.0.0
+  shared_preferences: ^2.0.18
+  badges: ^3.0.2
+  page_transition: ^2.0.9
+  shimmer: ^2.0.0
+  vertical_tabs_flutter: ^1.0.0
+  number_paginator: ^0.2.3
+  animated_toggle_switch: ^0.6.1
+  toggle_switch: ^2.0.1
+  hovering: ^1.0.4
+  pinput: ^2.2.31
+  google_fonts: ^4.0.3
+  twilio_flutter: ^0.0.9
+  flutter_svg: ^2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/lognano.png
+    - assets/images/logosmart.png
+    - assets/images/america.png
+    - assets/images/arab.png
+    - assets/images/process.svg
+    - assets/images/loginPage.jpg
+    - assets/images/loginPage.png
+    - assets/images/forgot.png
+    - assets/images/otp.png
+    - assets/images/newPass.png
+    - assets/images/man.jpg
+    - assets/images/loginScreen.png
+    - assets/images/Enquiry.png
+    - assets/images/Agreed.png
+    - assets/images/order.png
+    - assets/images/submit.png
+    - assets/images/ad1.jpg
+    - assets/images/ad2.jpg
+    - assets/images/ad3.jpg
+    - assets/images/ad4.jpg
+    - assets/images/supplier.gif
+    - assets/images/loader.gif
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
